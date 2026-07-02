@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>被AI追赶的人｜大模型时代的职场生存图鉴</title>
+  <meta name="description" content="会不会用AI，正在拉开职场焦虑的差距">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="progress" aria-hidden="true"></div>
+  <header class="hero">
+    <nav class="topbar" aria-label="页面导航">
+      <a class="brand" href="#top">AI时代的职场生存图鉴</a>
+      <div class="navlinks">
+        <a href="#article">报道</a>
+        <a href="#methods">方法</a>
+        <a href="#appendix">附录</a>
+        <a class="download" href="assets/downloads/workplace-ai-report.docx">下载DOCX</a>
+      </div>
+    </nav>
+    <section class="hero-grid" id="top">
+      <div class="hero-copy">
+        <p class="eyebrow">SPSS 期末数据报道</p>
+        <h1>被AI追赶的人</h1>
+        <p class="subtitle">大模型时代的职场生存图鉴</p>
+        <p class="deck">会不会用AI，正在拉开职场焦虑的差距</p>
+        <div class="meta-row" aria-label="报道信息">
+          <span>500名职场样本</span>
+          <span>6张数据图解</span>
+          <span>IBM SPSS Statistics 27</span>
+        </div>
+      </div>
+      <aside class="hero-visual" aria-label="核心数据图预览">
+        <img src="assets/charts/figure5_r2_change.png" alt="分层回归模型解释力变化图">
+        <div class="insight-strip">
+          <strong>核心观察</strong>
+          <span>焦虑差距不只来自“用多久”，更来自“会不会用”。</span>
+        </div>
+      </aside>
+    </section>
+  </header>
+
+  <main>
+    <section class="dashboard" aria-label="数据提示">
+      <article>
+        <span>趋势</span>
+        <strong>高频使用者未必更焦虑</strong>
+        <p>使用时长和焦虑之间不是简单的正向关系。</p>
+      </article>
+      <article>
+        <span>行业</span>
+        <strong>平均值接近，内部分化明显</strong>
+        <p>技术行业的焦虑波动更值得关注。</p>
+      </article>
+      <article>
+        <span>分水岭</span>
+        <strong>AI熟练度更关键</strong>
+        <p>掌控能力比单纯在线时长更能解释差异。</p>
+      </article>
+    </section>
+
+    <div class="layout">
+      <aside class="toc" aria-label="文章目录">
+        <p>目录</p>
+        <a href="#day">被工具改变的一天</a>
+<a href="#beyond-average">平均值之外</a>
+<a href="#half-skilled">半熟练地带</a>
+<a href="#divider">新的分水岭</a>
+<a href="#organization">不只是个人焦虑</a>
+<a href="#after">追赶之后</a>
+<a href="#methods">数据说明与方法</a>
+<a href="#appendix">SPSS原图附录</a>
+      </aside>
+      <article class="story" id="article">
+        <h2 id="day">被工具改变的一天</h2>
+<p>很多职场人的一天，正在被一个新的动作切开。</p>
+<p>打开电脑，点开聊天框，输入一句需求，然后等待大模型给出答案。它可能是一份日报的开头，一段代码的解释，一组PPT提纲，一份会议纪要，一篇推文标题，也可能是一封措辞更得体的邮件。几秒钟后，屏幕上出现一段看起来完整的文字。人却没有因此完全轻松下来。</p>
+<p>新的工作并没有结束，而是刚刚开始：这段内容能不能用？有没有错？够不够专业？会不会太空？要不要改？如果它能写出来，我的价值在哪里？如果别人已经能用它提高效率，我是不是正在落后？</p>
+<p>这正是生成式AI进入职场后带来的复杂情绪。以ChatGPT、DeepSeek等为代表的大语言模型，已经不只是技术新闻里的热门词，也不只是程序员、产品经理或媒体从业者的工具。它正在渗入普通办公场景：写材料、查资料、改文案、做总结、列方案、辅助分析。AI像一个随叫随到的助手，也像一个不断提醒人“你可能不再稀缺”的参照物。</p>
+<p>过去，工具升级通常意味着效率提高。打字机替代手写，Excel替代纸质表格，办公软件让流程更快。但这一次，许多职场人感受到的不只是效率，而是比较。AI不只是帮人做重复劳动，它开始进入知识型工作的内部：表达、归纳、判断、生成、修改。它让一些人第一次清楚地意识到，所谓“专业能力”并不总是稳固的，它也可能被重新估价。</p>
+<p>围绕AI的公共讨论，常常集中在一个更尖锐的问题上：AI会不会让人失业？但对具体的打工人来说，焦虑往往不是这样突然降临的。它更像一种持续的追赶感：工具在更新，岗位在变化，同行在尝试，组织在提速，而自己还没有完全弄清楚，该如何把这个工具变成真正属于自己的能力。</p>
+<p>为了观察这种变化，我们基于一份包含500名职场人的数据进行了分析。数据记录了受访者的行业类型、工龄、月薪、受教育程度、每周使用AI工具的时长、AI工具主观熟练度，以及他们的知识与失业焦虑感得分。这里的焦虑，不是医学诊断意义上的焦虑，而是职场人在AI冲击下对知识贬值、岗位安全和未来竞争的主观压力。</p>
+<p>数据给出的答案并不简单。它没有把AI描述成单纯的威胁，也没有把AI包装成万能的解药。更值得注意的是：真正拉开焦虑差距的，不是一个人有没有使用AI，也不是他用了多久，而是他是否真的会用。</p>
+
+      <figure class="figure-card" id="图1">
+        <button class="image-button" data-full="assets/charts/figure1_scatter_ai_use_anxiety.png" aria-label="查看图1大图">
+          <img src="assets/charts/figure1_scatter_ai_use_anxiety.png" alt="图1  AI使用时长与知识焦虑得分的关系。整体来看，每周AI使用时长较高的人，焦虑得分反而略低；但散点分布较分散，说明“用多久”不能单独解释焦虑差异。" loading="lazy">
+        </button>
+        <figcaption>图1  AI使用时长与知识焦虑得分的关系。整体来看，每周AI使用时长较高的人，焦虑得分反而略低；但散点分布较分散，说明“用多久”不能单独解释焦虑差异。</figcaption>
+      </figure>
+    
+<p>从图中看，AI使用时间更长的人，知识与失业焦虑得分整体上并没有更高，反而呈现出略低的趋势。这和很多人的直觉不完全一样。通常我们会以为，越频繁接触AI，越容易感到被替代，越容易陷入“下岗恐慌”。但数据提示，频繁使用AI的人，也可能已经从工具中获得了效率、经验和某种心理上的缓冲。</p>
+<p>不过，这张图并不支持一个简单结论：不是“用AI越多越安心”。图中的点分布得很散。同样每周使用AI二三十小时的人，焦虑得分可能相差很大。有人把AI变成稳定的工作助手，有人却在反复试错中更焦虑。真正的差别，藏在使用方式里。</p>
+<p>有的人把AI当作搜索框：输入一句问题，复制一段答案，再简单修改。也有人把AI当作协作对象：先拆解任务，再让它生成不同方案，然后追问、比较、校对、重组。前者只是接触了AI，后者才是在使用AI。两类人看起来都在“用AI”，但他们获得的心理体验完全不同。</p>
+<p>前者容易感到失控：工具好像很强，但不知道什么时候可靠；别人好像用得很好，但不知道自己差在哪里。后者更容易获得掌控感：哪些环节可以交给AI，哪些地方必须自己判断，哪些输出只能作为素材，哪些结果可以进入正式工作流程。这也是AI焦虑最值得关注的地方。它并不只来自“机器太强”，还来自“我还没有学会如何和机器一起工作”。</p>
+<h2 id="beyond-average">平均值之外</h2>
+<p>如果把视线转向行业，另一个容易被忽略的问题出现了。行政通用管理型、文科创意媒体型、IT技术研发型三类人群的平均焦虑水平相差不大，基本都集中在50分出头。仅从平均值看，很难说某一类行业整体更焦虑。AI并没有简单地把某个行业整体推向高压区。</p>
+<p>但平均值有时会掩盖真正的问题。</p>
+
+      <figure class="figure-card" id="图2">
+        <button class="image-button" data-full="assets/charts/figure2_boxplot_industry_anxiety.png" aria-label="查看图2大图">
+          <img src="assets/charts/figure2_boxplot_industry_anxiety.png" alt="图2  不同行业知识焦虑箱线图。三类行业的平均焦虑水平接近，但IT技术研发型人群的分布范围更宽，说明该行业内部焦虑分化更明显。" loading="lazy">
+        </button>
+        <figcaption>图2  不同行业知识焦虑箱线图。三类行业的平均焦虑水平接近，但IT技术研发型人群的分布范围更宽，说明该行业内部焦虑分化更明显。</figcaption>
+      </figure>
+    
+<p>箱线图显示，真正值得注意的不是行业之间的平均差距，而是行业内部的波动。行政通用管理型人群的焦虑分布相对集中，文科创意媒体型略宽，IT技术研发型的分布范围最大。换句话说，技术行业并不是人人更焦虑，而是内部差异更剧烈。</p>
+<p>这是一种更隐蔽的职业分化。同样身处技术岗位，有人把AI当作效率放大器。它可以辅助写代码、解释报错、生成框架、检索文档、加快原型设计。对这类人来说，AI减少了重复劳动，扩大了个人能力半径。另一些人则感受到完全不同的压力：过去能够证明自己能力的一部分工作，正在被工具快速压低门槛。初级代码、简单脚本、基础排错、模板化开发，都可能不再像过去那样构成稳定壁垒。</p>
+<p>文科创意媒体型岗位也处在类似变化中。写作、策划、编辑、翻译、运营、短视频脚本和品牌文案，都是生成式AI较早进入的领域。AI可以生成标题、初稿、提纲和传播方案，但它无法自动承担事实核查、公共判断、审美选择和价值把关。于是，内容行业的焦虑不再是“AI会不会写”，而是“人在AI会写之后，还能提供什么”。</p>
+<p>行政通用管理型岗位受到的冲击相对间接。AI可以帮助整理材料、生成通知、优化表格、归纳会议纪要，但许多行政工作仍然嵌入组织关系、流程协调和线下执行中。它会被AI改变，却不一定立刻被AI替代。因此，这类人群的焦虑波动相对平稳。</p>
+<p>这提醒我们，AI时代的风险不是按行业名称平均落下的。它更像一股水流，进入每个行业内部，冲刷不同岗位、不同能力层级和不同学习速度的人。真正的问题不只是“你在哪个行业”，而是“你在这个行业中处于什么能力位置”。</p>
+<h2 id="half-skilled">半熟练地带</h2>
+<p>更有意思的现象，出现在AI使用强度分组中。我们把受访者分为低频使用、中频使用和高频使用三类。结果显示，焦虑水平最高的并不是高频使用者，而是中频使用者。三类行业大体都出现了类似走势：低频使用者焦虑不算最高，高频使用者也没有最高，真正的高点出现在中间地带。</p>
+
+      <figure class="figure-card" id="图3">
+        <button class="image-button" data-full="assets/charts/figure3_industry_ai_group_errorline.png" aria-label="查看图3大图">
+          <img src="assets/charts/figure3_industry_ai_group_errorline.png" alt="图3  行业类型与AI使用强度下的焦虑差异。不同行业中，中频AI使用者的焦虑水平普遍较高，提示“已经开始使用但尚未熟练掌控”的阶段可能更容易产生不安。" loading="lazy">
+        </button>
+        <figcaption>图3  行业类型与AI使用强度下的焦虑差异。不同行业中，中频AI使用者的焦虑水平普遍较高，提示“已经开始使用但尚未熟练掌控”的阶段可能更容易产生不安。</figcaption>
+      </figure>
+    
+<p>这像是一个“半熟练地带”。低频使用者可能还没有深度进入AI工作流。AI对他们来说是一个知道很热、偶尔尝试、但尚未真正改变日常工作节奏的工具。他们感受到冲击，却未必每天被这种冲击追赶。高频使用者则可能已经经过了一段探索期。他们知道AI能做什么、不能做什么，知道如何让它为自己的任务服务，也知道哪些结果必须自己把关。</p>
+<p>最不安的，恰恰可能是中间那群人：已经开始使用AI，已经意识到它重要，却还没有稳定掌握它。他们既回不到不用AI的状态，也还没有进入熟练使用的状态。</p>
+<p>这是一种典型的转型期焦虑。工具越多，教程越多，案例越多，并不意味着每个人都会立刻变轻松。对许多职场人来说，AI带来的第一感受不是效率，而是混乱。同一个问题可以得到很多答案，却不知道哪个可靠；一个方案可以迅速生成，却需要花时间判断是否空泛；一份文案看似完整，却可能没有事实支撑；一段代码能跑，却未必符合业务逻辑。</p>
+<p>于是，AI从“减负工具”变成了“二次劳动”。使用者需要提出问题、筛选结果、纠正错误、重组内容。不会用的时候，AI不仅不能减少焦虑，反而会放大焦虑：它提醒你世界在变，却没有立刻给你一套可依赖的新方法。</p>
+<p>这类焦虑与其说是单纯的失业焦虑，不如说是能力转换焦虑。AI把未来提前摆在职场人面前，但并不是每个人都已经准备好进入未来。在这段半熟练地带里，人最容易感到被追赶。不是因为完全不会，而是因为会一点；不是因为完全拒绝，而是因为已经意识到自己不能拒绝。变化已经发生，新的能力却还没有长出来。</p>
+<h2 id="divider">新的分水岭</h2>
+<p>当我们把目光转向AI工具主观熟练度，脉络变得更清楚。整体来看，AI熟练度越高，焦虑水平越低。特别是在高频使用者中，熟练度较高者的焦虑明显下降。也就是说，高频使用本身并不可怕；真正决定它是压力还是资源的，是使用者有没有形成掌控能力。</p>
+
+      <figure class="figure-card" id="图4">
+        <button class="image-button" data-full="assets/charts/figure4_skill_ai_group_portrait.png" aria-label="查看图4大图">
+          <img src="assets/charts/figure4_skill_ai_group_portrait.png" alt="图4  AI熟练度与使用强度下的焦虑画像。随着AI熟练度提升，焦虑水平整体下降；高频使用者并不必然更焦虑，关键在于是否具备AI掌控能力。" loading="lazy">
+        </button>
+        <figcaption>图4  AI熟练度与使用强度下的焦虑画像。随着AI熟练度提升，焦虑水平整体下降；高频使用者并不必然更焦虑，关键在于是否具备AI掌控能力。</figcaption>
+      </figure>
+    
+<p>所谓AI熟练度，并不只是会不会输入提示词。它更像一种新的工作素养，包括任务拆解、问题表达、信息验证、结果筛选和责任判断。一个熟练使用AI的人，知道AI适合处理哪些环节，也知道哪些环节不能交给AI。他不会把AI输出直接当结论，而是把它当作素材、草稿、备选方案或辅助视角。</p>
+<p>这是一种新的人机分工能力。过去，熟练使用办公软件、会做PPT、会处理Excel，曾经是重要职场技能。今天，AI正在成为类似的基础能力，但它又比传统工具更复杂。Word不会主动编造事实，Excel不会假装理解业务，PPT不会给出看似合理却可能错误的判断。AI不同，它的输出具有语言上的完整性，容易让人产生“已经完成”的错觉。</p>
+<p>因此，会用AI的人，不只是会让它生成内容，更要会怀疑它、追问它、纠正它。AI越像人，越需要人保持判断。这也解释了为什么AI熟练度会影响焦虑。熟练者面对AI时，更容易感到“我可以使用它”；不熟练者面对AI时，更容易感到“它正在超过我”。同一个工具，在不同能力结构中，会产生完全不同的心理后果。</p>
+<p>从这个角度看，AI焦虑不是简单的技术恐惧，而是控制权焦虑。人担心的不是机器能做事，而是自己失去判断、选择和把关的位置。</p>
+<p>为了进一步区分不同因素的作用，我们把工龄、月薪和受教育程度这些传统背景因素先放入分析，再加入AI熟练度和AI使用时长。这样做，是为了观察AI因素是否真的在传统背景之外产生影响。</p>
+
+      <figure class="figure-card" id="图5">
+        <button class="image-button" data-full="assets/charts/figure5_r2_change.png" aria-label="查看图5大图">
+          <img src="assets/charts/figure5_r2_change.png" alt="图5  分层回归模型解释力变化。在控制工龄、月薪和受教育程度后，加入AI熟练度与使用时长，模型对焦虑差异的解释能力进一步提升。" loading="lazy">
+        </button>
+        <figcaption>图5  分层回归模型解释力变化。在控制工龄、月薪和受教育程度后，加入AI熟练度与使用时长，模型对焦虑差异的解释能力进一步提升。</figcaption>
+      </figure>
+    
+<p>结果显示，工龄和月薪确实与焦虑有关。工作时间更长、收入更高的人，通常焦虑较低。这符合常识。工龄意味着经验、组织适应能力和一定职业稳定性；月薪意味着资源、安全垫和议价空间。一个收入较高、经验较丰富的人，即使面对技术变化，也更可能拥有缓冲能力。</p>
+<p>但当AI相关因素加入后，模型对焦虑差异的解释能力进一步提高。换句话说，在工龄、收入和教育背景之外，AI已经成为影响职场人安全感的新变量。更重要的是，在AI相关因素中，真正起作用的是“熟练度”，不是“时长”。一个人只是长时间使用AI，并不一定更安心；只有当他觉得自己真正会用AI时，焦虑才更可能下降。</p>
+<p>这对企业和个人都有提醒意义。一些企业把AI转型理解为“让员工多用工具”，仿佛只要推广账号、组织培训、布置任务，就能完成智能化升级。但数据提示，问题没有这么简单。单纯增加使用频率，并不等于提升能力。员工如果只是在压力下打开AI，却不知道如何判断输出质量、如何与岗位流程结合，使用本身也可能变成新的负担。</p>
+<p>对个人来说，也不能把“我每天都在用AI”误认为“我已经具备AI能力”。真正的AI能力不是在线时长，而是能否把工具变成稳定的生产力。它体现在：能不能提出清晰问题，能不能识别错误答案，能不能把粗糙输出加工成高质量成果，能不能在效率提升的同时守住专业标准。</p>
+
+      <figure class="figure-card" id="图6">
+        <button class="image-button" data-full="assets/charts/figure6_standardized_beta.png" aria-label="查看图6大图">
+          <img src="assets/charts/figure6_standardized_beta.png" alt="图6  影响知识焦虑的标准化回归系数比较。与单纯使用时长相比，AI熟练度对焦虑差异的解释更突出，说明“会不会用”比“用多久”更关键。" loading="lazy">
+        </button>
+        <figcaption>图6  影响知识焦虑的标准化回归系数比较。与单纯使用时长相比，AI熟练度对焦虑差异的解释更突出，说明“会不会用”比“用多久”更关键。</figcaption>
+      </figure>
+    
+<p>当各项影响因素放在一起比较时，AI熟练度的重要性更加突出。它和工龄、月薪一样，都与焦虑下降有关；而AI使用时长本身的作用很弱。这进一步支持了前面的判断：职场安全感的来源，不是简单地多接触AI，而是能把AI变成自己的能力。</p>
+<p>这正是大模型时代的新分水岭。过去，职场竞争常常围绕学历、经验、资源和岗位展开。学历决定入场机会，经验决定解决问题的熟练程度，资源决定可调动的空间，岗位决定稳定性。但AI进入之后，一项新的隐性能力开始变得重要：你能否和机器协作。</p>
+<p>这种能力不会立刻写进所有岗位说明，也不会总是以证书形式出现，却会悄悄改变工作表现。两个人面对同一个任务，一个人从零开始查资料、写提纲、做初稿，另一个人能够快速让AI生成结构、提取资料、列出方案，再进行判断和修改，二者的效率差距会越来越明显。时间久了，这种差距就会转化为评价差距、机会差距和心理差距。</p>
+<p>AI并不是让所有人同时变强。它更可能让已经具备学习能力、判断能力和表达能力的人变得更强，同时让一部分依赖重复流程、缺少更新能力的人更焦虑。</p>
+<h2 id="organization">不只是个人焦虑</h2>
+<p>如果文章写到这里就停下，很容易变成一句简单劝告：职场人要努力学习AI。但这并不够。AI带来的焦虑当然和个人能力有关，却不只属于个人。它也和岗位设计、组织管理、企业责任有关。</p>
+<p>当企业要求员工使用AI时，很多问题并没有同步被讲清楚：AI生成的内容能否直接进入正式文件？如果AI给出错误信息，责任由谁承担？哪些任务可以交给AI，哪些任务不能？使用AI是否会改变绩效标准？员工节省下来的时间，是用于提高创造性，还是会被填进更多任务？</p>
+<p>如果这些边界不清楚，AI就不只是效率工具，也会成为新的管理压力。一些组织一边要求员工“拥抱AI”，一边没有提供真正岗位化的训练。培训停留在工具介绍和提示词示范，员工却要独自面对实际工作中的风险：客户材料不能出错，内部报告不能失真，公开内容不能编造，数据分析不能误导。AI可以生成内容，但不能替人承担责任。最后承担后果的，仍然是具体的人。</p>
+<p>这也是为什么AI熟练度会成为焦虑变量。它不只是技术能力，也是一种在不确定组织环境中保护自己的能力。会用AI的人，能够更清楚地判断边界；不会用的人，则更容易在“必须用”和“不敢用”之间摇摆。</p>
+<p>更深层的问题是，AI正在改变“好员工”的定义。过去，一个稳定可靠的员工，可能意味着熟悉流程、执行力强、经验丰富、少出差错。现在，这些仍然重要，但已经不够。组织越来越需要能够快速学习工具、重组流程、判断信息质量、把AI输出转化为业务成果的人。也就是说，职场价值正在从“完成既定任务”转向“重新设计任务”。</p>
+<p>当AI可以生成一份普通报告，人的价值就在于提出更好的问题；当AI可以写出一版方案，人的价值就在于判断它是否符合现实；当AI可以完成大量初级表达，人的价值就在于建立方向、承担责任和做出选择。</p>
+<p>这不是轻松的转变。它要求人从执行者变成判断者，从内容生产者变成质量把关者，从经验依赖者变成持续学习者。对很多职场人来说，这种转变本身就是压力来源。</p>
+<p>因此，“被AI追赶的人”不是一个失败者标签，而是一种时代处境。几乎所有知识工作者都在某种程度上被追赶：被工具更新速度追赶，被岗位变化追赶，被同行效率追赶，也被自己过去的工作方式追赶。</p>
+<p>问题在于，被追赶之后，人如何反应。一种反应是回避。把AI视为噱头，认为它不可靠、不专业、迟早退潮。另一种反应是盲从。把AI视为万能答案，试图把所有任务交给它。两种反应都危险。前者会错过能力更新，后者会失去专业判断。真正有效的路径，是把AI放到人的专业框架中使用：让它承担辅助，让人保留判断。</p>
+<h2 id="after">追赶之后</h2>
+<p>这份数据不能解释全部现实。它不能说明AI熟练度一定直接导致焦虑下降，也不能覆盖所有职业和地区。职场焦虑还会受到组织裁员、行业景气、个人性格、家庭责任和经济环境影响。</p>
+<p>但它至少提供了一个重要观察：AI时代的焦虑，不只是关于失业，也是关于能力重组。AI没有平均地制造焦虑，它让不同人的能力状态变得更清楚。熟练者从中获得掌控，不熟练者从中感到追赶；高频使用者未必更焦虑，中频使用者反而可能处在最不稳定的适应期；行业平均值看似接近，行业内部却已经出现分化。</p>
+<p>这也提醒我们，未来的职场安全感不会只来自“我过去会什么”，而会越来越取决于“我能否继续学会什么”。经验仍然重要，但经验必须能够更新；专业仍然重要，但专业必须能够和工具协作；判断仍然重要，而且会变得比以往更重要。</p>
+<p>大模型不会立刻决定每个人的命运，但它正在改变每个人理解自身价值的方式。它让职场人意识到，稳定不再等同于不变，熟练不再等同于重复，经验不再等同于安全。</p>
+<p>在这场变化中，焦虑不是终点。它是一种信号，提醒人们原有的职业秩序正在松动。真正的问题不是有没有焦虑，而是焦虑之后能不能行动。</p>
+<p>被AI追赶的人，并不注定被AI淘汰。更关键的是，他能否在被追赶的过程中，重新理解自己的位置：哪些能力会被工具削弱，哪些能力会被工具放大，哪些判断仍然只能由人承担。</p>
+<p>大模型时代的职场生存，不是和AI抢同一份工作，而是学会把AI变成自己的工作方式。谁能更早完成这种转换，谁就更可能从“被AI追赶的人”，变成“带着AI前进的人”。</p>
+<h2 id="methods">数据说明与方法</h2>
+<p>分析包括：AI使用时长与知识焦虑得分的相关分析；按行业类型进行的方差齐性检验；以及以工龄、月薪、受教育程度为第一层控制变量，AI熟练度和AI使用时长为第二层变量的分层回归分析。</p>
+<p>主要结果显示：AI使用时长与焦虑得分存在弱负向关系；不同行业平均焦虑差异不明显，但焦虑波动存在显著差异；在分层回归中，AI熟练度比单纯使用时长更能解释焦虑差异。</p>
+
+      <div class="method-grid"><article class="method-card"><span>相关性</span><p>观察AI使用时长与知识焦虑得分之间的方向和强弱，判断“越常用越焦虑”的直觉是否成立。</p></article>
+<article class="method-card"><span>方差齐性</span><p>按行业类型比较焦虑波动，关注AI冲击是否在某些行业内部表现得更不稳定。</p></article>
+<article class="method-card"><span>分层回归</span><p>先控制工龄、月薪和受教育程度，再加入AI熟练度与使用时长，观察AI因素的独立影响。</p></article></div>
+      <h3 class="subhead">关键统计结果摘要</h3>
+      <div class="result-grid"><article class="result-card"><strong>使用时间</strong><p>AI使用时长较高者，焦虑并没有同步升高，整体反而略低。</p></article>
+<article class="result-card"><strong>行业差异</strong><p>三类行业平均焦虑接近，但IT技术研发型内部差异更明显。</p></article>
+<article class="result-card"><strong>关键变量</strong><p>真正更能拉开焦虑差距的，是AI熟练度，而不是单纯在线时长。</p></article></div>
+    
+      </article>
+    </div>
+
+    <section class="appendix" id="appendix">
+      <div class="section-intro">
+        <p class="eyebrow">Appendix</p>
+        <h2>SPSS 原始输出图</h2>
+        <p>以下为SPSS输出中的原始图表裁图，供与正文中重新绘制的莫兰迪蓝紫色图表进行对应核验。</p>
+      </div>
+      <div class="original-grid">
+        
+            <figure class="original-card">
+              <button class="image-button" data-full="assets/spss-originals/appendix_original_figure1_scatter.png" aria-label="查看SPSS原图1：AI使用时长与知识焦虑散点图大图">
+                <img src="assets/spss-originals/appendix_original_figure1_scatter.png" alt="SPSS原图1：AI使用时长与知识焦虑散点图" loading="lazy">
+              </button>
+              <figcaption>SPSS原图1：AI使用时长与知识焦虑散点图</figcaption>
+            </figure>
+            
+
+            <figure class="original-card">
+              <button class="image-button" data-full="assets/spss-originals/appendix_original_figure2_boxplot.png" aria-label="查看SPSS原图2：不同行业知识焦虑箱线图大图">
+                <img src="assets/spss-originals/appendix_original_figure2_boxplot.png" alt="SPSS原图2：不同行业知识焦虑箱线图" loading="lazy">
+              </button>
+              <figcaption>SPSS原图2：不同行业知识焦虑箱线图</figcaption>
+            </figure>
+            
+
+            <figure class="original-card">
+              <button class="image-button" data-full="assets/spss-originals/appendix_original_figure3_errorline_industry.png" aria-label="查看SPSS原图3：行业 × AI使用强度误差线图大图">
+                <img src="assets/spss-originals/appendix_original_figure3_errorline_industry.png" alt="SPSS原图3：行业 × AI使用强度误差线图" loading="lazy">
+              </button>
+              <figcaption>SPSS原图3：行业 × AI使用强度误差线图</figcaption>
+            </figure>
+            
+
+            <figure class="original-card">
+              <button class="image-button" data-full="assets/spss-originals/appendix_original_figure4_skill_portrait.png" aria-label="查看SPSS原图4：AI熟练度与使用强度焦虑画像大图">
+                <img src="assets/spss-originals/appendix_original_figure4_skill_portrait.png" alt="SPSS原图4：AI熟练度与使用强度焦虑画像" loading="lazy">
+              </button>
+              <figcaption>SPSS原图4：AI熟练度与使用强度焦虑画像</figcaption>
+            </figure>
+            
+
+            <figure class="original-card">
+              <button class="image-button" data-full="assets/spss-originals/appendix_original_figure5_r2.png" aria-label="查看SPSS原图5：分层回归模型解释力变化大图">
+                <img src="assets/spss-originals/appendix_original_figure5_r2.png" alt="SPSS原图5：分层回归模型解释力变化" loading="lazy">
+              </button>
+              <figcaption>SPSS原图5：分层回归模型解释力变化</figcaption>
+            </figure>
+            
+
+            <figure class="original-card">
+              <button class="image-button" data-full="assets/spss-originals/appendix_original_figure6_beta.png" aria-label="查看SPSS原图6：标准化回归系数大图">
+                <img src="assets/spss-originals/appendix_original_figure6_beta.png" alt="SPSS原图6：标准化回归系数" loading="lazy">
+              </button>
+              <figcaption>SPSS原图6：标准化回归系数</figcaption>
+            </figure>
+            
+      </div>
+    </section>
+  </main>
+
+  <div class="lightbox" role="dialog" aria-modal="true" aria-label="图表大图预览">
+    <button class="close" aria-label="关闭预览">×</button>
+    <img src="" alt="">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
